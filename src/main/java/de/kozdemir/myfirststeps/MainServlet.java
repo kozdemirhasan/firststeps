@@ -1,11 +1,14 @@
-package de.lubowiecki.firststeps;
-
-import java.io.*;
+package de.kozdemir.myfirststeps;
 
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
 
 //@WebServlet(name = "mainServlet", value = "/main")
 //@WebServlet("/main") // Es wird nur das URL-Mapping reingeschrieben

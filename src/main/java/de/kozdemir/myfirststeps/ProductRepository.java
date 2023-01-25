@@ -1,4 +1,4 @@
-package de.lubowiecki.firststeps;
+package de.kozdemir.myfirststeps;
 
 import java.sql.*;
 import java.util.ArrayList;

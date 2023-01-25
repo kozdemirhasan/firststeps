@@ -11,7 +11,7 @@
             <main class="col-sm-8 py-3">
                 <h1>${headline}</h1>
 
-                <form action="submit" method="post">
+                <form action="submit" method="get">
                     <div class="mb-3">
                         <div class="form-check">
                             <input type="radio" name="title" id="title_1" value="w" class="form-check-input">

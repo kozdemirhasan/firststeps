@@ -1,8 +1,10 @@
-package de.lubowiecki.firststeps;
+package de.kozdemir.myfirststeps;
 
-import jakarta.servlet.*;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -42,7 +44,7 @@ public class FormServlet extends HttpServlet {
         final String message = request.getParameter("message");
 
         final PrintWriter output = response.getWriter();
-        /*
+/*
         response.setContentType("text/html");
         output.println("<!DOCTYPE html>");
         output.println("<html><head></head><body>");
@@ -52,7 +54,7 @@ public class FormServlet extends HttpServlet {
         output.println("<p>email: " + email + "</p>");
         output.println("<p>message: " + message + "</p>");
         output.println("</body></html>");
-        */
+*/
 
         Map<String, String> laender = new HashMap<>();
         laender.put("de", "Deutschland");
@@ -71,5 +73,6 @@ public class FormServlet extends HttpServlet {
         output.println("\"email\": \"" + email + "\"");
         output.println("\"message\": \"" + message + "\"");
         output.println("}]");
+
     }
 }

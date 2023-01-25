@@ -1,4 +1,4 @@
-package de.lubowiecki.firststeps;
+package de.kozdemir.myfirststeps;
 
 public class User { // POJO: Plain Old Java Object
 

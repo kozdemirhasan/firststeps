@@ -1,4 +1,4 @@
-package de.lubowiecki.firststeps;
+package de.kozdemir.myfirststeps;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class DBUtil {
 
-    private static final String URL = "jdbc:mysql://localhost:8889/firststeps_db"; // Port für WIN 3306
+    private static final String URL = "jdbc:mysql://localhost:3306/firststeps_db"; // Port für WIN 3306
     private static final String USER = "root";
-    private static final String PASSWORD = "root"; // Für WIN ist leer
+    private static final String PASSWORD = ""; // Für WIN ist leer
 
     private DBUtil() {
     }
