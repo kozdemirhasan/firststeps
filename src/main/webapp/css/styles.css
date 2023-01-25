@@ -1,0 +1,48 @@
+:root {
+    --lighter-blue: #75b4c5;
+    --light-blue: #0A5978;
+    --dark-blue: #09262A;
+    --light-white: #F0F9F6;
+}
+
+header {
+    background-color: var(--light-blue);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    min-height: 500px;
+}
+
+#content aside {
+    background-color: var(--light-white);
+    min-height: 500px;
+}
+
+footer {
+    background-color: var(--dark-blue);
+    height: 300px;
+    color: var(--light-white);
+}
+
+#top-nav {
+    background-color: var(--dark-blue);
+    color: var(--light-white);
+}
+
+#top-nav button {
+    color: var(--light-white);
+}
+
+#top-nav a {
+    color: var(--light-white);
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+#top-nav a.activ,
+#top-nav a:hover {
+    color: var(--lighter-blue);
+}
